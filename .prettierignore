@@ -1,0 +1,17 @@
+# Ignore all files in the build folder
+build/
+
+# Ignore minified files
+*.min.js
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore specific files
+dist/bundle.js
+public/assets/*.png
+
+# Ignore all Markdown files in a docs folder
+docs/**/*.md
+
+*.json
