@@ -5,6 +5,8 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "formate:check": "npx prettier . --check",
+    "formate:fix": "npx prettier . --write",
     "test": "jest"
   },
   "keywords": [],
